@@ -20,7 +20,7 @@ const Hero = ({ heroData }) => {
           className="flex flex-col justify-center py-14 md:pr-16 xl:pr-40 md:py-0"
         >
           <div className="text-center md:text-left space-y-6">
-            <h1 className="text-4xl lg:text-6xl  font-bold !leading-tight text-secondary">
+            <h1 className="text-4xl lg:text-5xl  font-bold !leading-tight text-secondary">
               <span>{heroData.title}</span>
             </h1>
             <p className="font-light text-lg">{heroData.description}</p>
